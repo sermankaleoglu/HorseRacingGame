@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet"/>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="oyunAlanı">
+        <div class="bitisCizgisi"></div>
+        <img id="At1" src="images/horse1.png" class="img"/>
+        <hr>
+        <img id="At2" src="images/horse1.png" class="img"/>
+        <hr>
+        <img id="At3" src="images/horse1.png" class="img"/>
+        <hr>
+        <img id="At4" src="images/horse1.png" class="img"/>
+        <hr>
+        <img id="At5" src="images/horse1.png" class="img"/>
+    </div>
+    <div class="tutar">
+        <div class="buton3"><button onclick="bakiye()">Bakiye Yükle</button><b id="bakiye"></b></div>
+        <div class="buton4"><button onclick="bahisTutarı()">Bahis</button><b id="bahis"></b></div>
+    </div>
+    <div class="butonlar">
+        <div class="buton1"><button onclick="predict()">Tahmin Yap</button></div>
+        <div class="buton2"><button onclick="startGame()">Yarışı Başlat</button></div>
+    </div>
+    <div id="sıralama"><b id="sıralamaSonucu">**YARIŞ BAŞLIYOR**</b></div>
+</body>
+</html>

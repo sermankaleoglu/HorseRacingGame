@@ -1,0 +1,83 @@
+.oyunAlanı
+{
+    width:1520px;
+    height:500px;
+    background-color: green;
+    position: relative;
+}
+.img
+{
+    width:100px;
+    height: 80px;
+    background-color: green;
+    position: relative;
+    margin-top: 2px;
+}
+.bitisCizgisi
+{
+    width:10px;
+    height:500px;
+    background-color: black;
+    position: relative;
+    float: right;
+    margin-right: 10px;   
+}
+.tutar
+{
+    margin-top: 5px;
+    position: relative;
+    float:left;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+.tutar button
+{
+    width: 170px;
+    height: 25px;
+    background-color: rgb(99, 246, 99);
+    font-size: 18px;
+    font-weight: bolder;
+}
+.buton3,.buton4
+{
+    position: relative;
+    float: left;
+    width: 170px;
+    height: 40px;
+    padding: 5px;
+}
+.butonlar
+{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.butonlar button
+{
+    width: 170px;
+    height: 70px;
+    background-color: rgb(99, 246, 99);
+    font-size: 20px;
+    font-weight: bolder;
+}
+.buton1 
+{
+    text-align: center;
+    display: inline-block;
+}
+.buton2
+{
+    text-align: center;
+    display: inline-block;
+}
+#sıralama
+{
+    width:50%;
+    text-align: center;
+    float: right;
+}
+
+
